@@ -137,7 +137,7 @@ tronconhydrograelt_fxx_vertices_pgr
 
 
 
-CREATE EXTENSION pgrouting;
+**CREATE EXTENSION pgrouting;**
 
 sélectionne les valeurs geom et leur validité (Cela ne doit pas être des mutlilinestring) ainsi que le srid et la dimension de la geométrie
 
