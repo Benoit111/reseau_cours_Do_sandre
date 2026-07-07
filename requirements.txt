@@ -1,0 +1,19 @@
+# Data processing
+pandas
+geopandas
+fiona
+shapely
+pyproj
+rtree
+folium
+python-dotenv
+plotly
+
+# Database
+SQLAlchemy[asyncio]
+asyncpg
+psycopg2-binary
+
+# Web API
+fastapi
+uvicorn[standard]

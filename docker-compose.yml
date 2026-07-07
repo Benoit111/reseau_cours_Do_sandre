@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    container_name: naiades_api_v2
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
