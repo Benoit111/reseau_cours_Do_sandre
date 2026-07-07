@@ -131,6 +131,25 @@ GET /troncon/between_graph_tronconh?codestation_amont={codestation_amont}&codest
 >
 > Les tronçons de la BD Carthage ont été mis en réseau via **PostgreSQL** à l'aide de **pgRouting** (tables `tronconhydrograelt_fxx` et `tronconhydrograelt_fxx_vertices_pgr`).
 
+## 7. Commande pour démarrer le docker
+
+
+Le projet est installé sur projet/naiages/naiages_api.
+
+En cas de changement sur les script : 
+
+```shell
+
+#Stopper l'ancien container de prod
+docker stop naiage_api
+docker rm naiage_api
+
+docker compose down
+docker compose build --no-cache
+docker compose up -d
+docker logs naiades_api_v2 -f
+```
+
 ## Préparation des données (PostGIS / pgRouting)
 
 ### 1. Activer l'extension
