@@ -127,7 +127,7 @@ GET /troncon/between_graph_tronconh?codestation_amont={codestation_amont}&codest
 | `get_matching_section_id(stream_df)` | Récupère les informations des tronçons, y compris leur géométrie, pour affichage cartographique. |
 | `get_geodf_between2_stations` | Obtient la route directe entre deux stations. |
 
-> Le fichier `stations_troncons_plando.txt` est la source des stations (XY) qui relie les tronçons de la [BD Carthage](https://www.data.gouv.fr/datasets/bd-carthage-r).  ou [bdtopage](https://www.data.gouv.fr/datasets/bd-topage-r)
+> Le fichier `stations_troncons_plando.txt` est la source des stations (XY) qui relie les tronçons de la [BD Carthage](https://www.data.gouv.fr/datasets/bd-carthage-r).  ou [BD Topage](https://www.data.gouv.fr/datasets/bd-topage-r)
 >
 > Les tronçons de la BD Carthage ont été mis en réseau via **PostgreSQL** à l'aide de **pgRouting** (tables `tronconhydrograelt_fxx` et `tronconhydrograelt_fxx_vertices_pgr`).
 
